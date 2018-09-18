@@ -1,0 +1,6 @@
+---
+  - hosts: openvpn
+    gather_facts: true
+    become: true
+    roles:
+      - {role: openvpn", clients: [gopal, abhijeet], openvpn_port: 1194}
